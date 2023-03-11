@@ -1,0 +1,26 @@
+$wwwroot = 'http://localhost:8888/py4e/tsugi';   // Embedded Tsugi localhost
+
+...
+
+$CFG->pdo = 'mysql:host=127.0.0.1;port=8889;dbname=tsugi'; // MAMP
+$CFG->dbuser    = 'ltiuser';
+$CFG->dbpass    = 'ltipassword';
+
+...
+
+$CFG->adminpw = 'short';
+
+...
+
+$CFG->apphome = 'http://localhost:8888/py4e';
+$CFG->context_title = "Python for Everybody";
+$CFG->lessons = $CFG->dirroot.'/../lessons.json';
+
+... 
+
+$CFG->tool_folders = array("admin", "../tools", "../mod");
+$CFG->install_folder = $CFG->dirroot.'./../mod'; // Tsugi as a store
+
+...
+
+$CFG->servicename = 'PY4E';
