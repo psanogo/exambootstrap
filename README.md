@@ -1,1 +1,2 @@
-# exambootstrap
+
+gh repo clone openai/mujoco-py
